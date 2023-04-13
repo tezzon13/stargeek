@@ -1,72 +1,226 @@
 *{
-    margin: 0;
+    margin:0; 
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    background-color: #80149b;
- } 
-
-
-.login{
-    margin:0 auto;
-    text-align: center;
-}
-
-.img{
-    width: 140px;
-}
-
-
-.div{
-    width: 300px;
-    margin: 0px auto;
-}
-
-input{
-
-    background-color:#C1;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 40px;
-    border-radius: 7px 7px 7px 7px;
-}
-.a{
-    background-color:#6F0063;
-    padding: 5px 15px;
-    color: aliceblue;
-    text-decoration: none;
-    border: 1px solid rgb(178, 50, 224);
-    font-weight: 400;
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 7px 7px 7px 7px ;
-}
-
-
-
-
-.tudo{
-    border-radius: 10px;
-    text-align: center;
-    background-color:#aa53bc;
-    padding: 30px;
-    box-shadow: 0 0 10px rgb(98, 98, 98);
-    width: 350px;
+    }
     
-    margin:0 auto;
-    margin-top: 90PX;
-}
-.label{
-    text-align: center;
-    text-shadow: 2px 2px 5px black , rgb(187, 0, 255);
-    color: azure;
-    text-shadow: 1px 1px 2px palevioletred;
-}
+    body
+    {
+        background-color: #9F4CE0;
+    }
+    
+    .login{
+        background: rgba(157, 85, 208, 0.42);
+        border-radius: 27px ;
+         width: 40%;
+         margin: 0 auto; 
+         padding: 20px;
+         display: flex;
+         flex-direction: column;
+         color:white;
+         text-align: center;
+         border: 2px solid white;
+     }
+     .botao{
+        background-color:  #9F4CE0;
+        text-decoration: none;
+        border: 2px solid white;
+        color: white;
+        border-radius: 5px 5px 5px 5px;
+        padding: 10px;
+     }
+     .upload{
+        background-color:  #9F4CE0;
+        text-decoration: none;
+        border: 2px solid white;
+        color: white;
+        border-radius: 5px 5px 5px 5px;
+        padding-left: 20px;
+        text-align: center;
+     }
+    
+     input{
+        height: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background: #D9D9D9;
+        border-radius: 8px; 
+        border: 2px solid white;
+    }  
+     
+    .img{
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 20px;
+     }
+    
+     .log{
+        font-size: 40px;
+     }
+    
+     .img1{
+        height: 30px;
+        width: 30px;
+     }
+    
+    .im{
+        height: 110px;
+        width: 130px;
+    }
+    .p{
+     color: white;
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+    }
+    
+    .ig{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .up{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+    }
+    p{
+        color: white;
+    }
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    
+    .cabecalho>img {
+        height: 60px;
+         
+    }
+    
+    .menu {
+        display: flex;
+    }
+    
+    .menu>li {
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu>li a {
+        color: white;
+        text-decoration: none;
+        text-shadow: 2px 2px black;
+        font-weight: 600;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    h1, p{
+        color: white;
+        margin-bottom: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .mg{
+        display: flex;
+    
+    }
+    .botao2{
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        border: 2px solid black;  
+        color: black;
+    }
+    .botao3{
+        background-color:blueviolet;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        border: 2px solid black;  
+        color: white;
+    }
+    .tg{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    h3{
+        color: white;
+        text-align: center;
+    }
+    
+    div{
+        text-align: center;
+    }
+    .sr{
+        height: 70px;
+        width: 70px;
+        margin: 0px;
+    }
+    .ds{
+        margin: 0px;
+    }
+    .hg{
+        margin: 0px;
+        margin-bottom: -20px;
+    }
+    .fg{
+        color: #9F4CE0;
+        padding: 3px 2px;
+        text-decoration: none;
+        border: 3px solid #9F4CE0;
+        list-style: disc;
+        display: inline;
+        border-radius: 8px 8px 8px 8px;
+    }
+    .login1{
+        background: rgba(217, 217, 217, 0.42);
+        border-radius: 27px ;
+         width: 200px;
+         margin: 0 auto; 
+         padding: 20px;
+         display: flex;
+         flex-direction: column;
+         color:white;
+         text-align: center;
+         border: 2px solid white;
+     }
+     .ig{
+        width: 300px;
+        height: 300px;
+     }
+     .tudo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid white;
+        padding-bottom: 20px;
+        max-width: 500px;
+        margin: 0 auto;
+        border-radius: 30px 30px 30px 30px;
+        background-color: #8742bc;
 
-h1{
-    color: #6F0063;
-}
-
-{
- 
-}
+     }  
+     .a{
+        background-color: #9F4CE0;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        border: 2px solid black;  
+        color: white;
+        border-radius: 5px 5px 5px 5px;
+       }  
+    
