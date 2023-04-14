@@ -94,11 +94,14 @@
         justify-content: space-between;
         padding-left: 20px;
         padding-right: 20px;
-        
+        background-color: #833bc2;
+        box-shadow: 0 3px 5px black;
+        padding: 40px;
     }
     
     .cabecalho>img {
         height: 60px;
+        
          
     }
     
@@ -223,4 +226,73 @@
         color: white;
         border-radius: 5px 5px 5px 5px;
        }  
-    
+      .bn{
+        display: flex;
+        overflow: scroll;
+        margin-bottom: 50px;
+        gap: 10px;
+      }
+      .ol{
+        
+      }
+      .ol>img{
+        width: 280px;
+      }
+      
+      .lista-musicas{
+        display: flex;
+        gap: 20px;
+        overflow: scroll;
+
+      }
+
+      .lista-musicas::-webkit-scrollbar{
+        display: none;
+      }
+
+      .ob>img{
+        width: 150px;
+        padding: 15px;
+        
+      }
+
+      .albuns{
+        display: flex;
+       padding: 15px;
+      }
+      .ob{
+        background-color: black;
+        margin: 10px;
+        border-radius: 5px;
+
+      }
+
+      .h1-1 {
+        color: black;
+      }
+
+      .bl {
+        color: black;
+    }
+    .sertanejo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+        border-radius: 5px;
+        overflow: scroll;
+        margin-left: 10px;
+    }
+
+    .sertanejo> img {
+        width: 150px;
+        margin-right: 40px;
+        border-radius: 10px;
+        border: 10px solid black;
+    }
+
+    .ig {
+        height: 90px;
+        width: 90px;
+        margin-left: 50px;
+    }
